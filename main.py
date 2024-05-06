@@ -13,6 +13,7 @@ class NeuralNetwork:
         return 1 / (1 + np.exp(-x))
 
     # Derivative of the sigmoid function
+    # If you calculate derivative of sigmoid function you get following:
     def __sigmoid_derivative(self, x):
         return x * (1 - x)
 
@@ -25,7 +26,7 @@ class NeuralNetwork:
             # Calculate error
             error = training_set_outputs - output
 
-            # Backpropagation
+            # Backpropagation 
             adjustment = np.dot(training_set_inputs.T, error * self.__sigmoid_derivative(output))
 
             # Update weights
