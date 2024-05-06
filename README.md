@@ -41,7 +41,8 @@ This will train the neural network using a predefined training set and then test
 The neural network implemented here consists of:
 
 - **Single Neuron**: Modeled with three input connections and one output connection.
-- **Sigmoid Activation Function**: Used to introduce non-linearity and normalize outputs between 0 and 1. ![Image Alt Text](media/1_HDWhvFz5t0KAjIAIzjKR1w.webp)
+- **Sigmoid Activation Function**: Used to introduce non-linearity and normalize outputs between 0 and 1. ![Image Alt Text](media/1_sK6hjHszCwTE8GqtKNe1Yg.webp
+)
 - **Backpropagation**: Training the network involves adjusting synaptic weights based on the error between predicted and actual outputs.
 
 ## Files Included
